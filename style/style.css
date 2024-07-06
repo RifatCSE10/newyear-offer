@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -118,7 +118,6 @@
     <===========================================> */
 
 .midnight-party {
-
   border-radius: 16px;
   background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
     url("../assets/images/ectorrr.png");
@@ -134,8 +133,8 @@
   margin-top: 120px;
 }
 
-.midnight-party .party-text{
-    margin-left: 126px;
+.midnight-party .party-text {
+  margin-left: 126px;
 }
 
 .midnight-party .party-text h1 {
@@ -181,14 +180,70 @@
   cursor: pointer;
 }
 
-.midnight-party .paty-year-img{
-    width: 349px;
-    height: 464px;
-    position: relative;
-    right: 5%;
-    
+.midnight-party .paty-year-img {
+  width: 349px;
+  height: 464px;
+  position: relative;
+  right: 5%;
 }
 
-.midnight-party .paty-year-img img{
-    width: 100%;
+.midnight-party .paty-year-img img {
+  width: 100%;
+}
+
+/*  <===========================================>
+            Addreszs section start ...
+    <===========================================> */
+
+.address_time {
+  
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: 120px;
+}
+
+.address_time .address_text {
+  width: 549px;
+  height: 168px;
+}
+
+.address_time .address_text h2 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.address_time .address_text h2 .text_style {
+  color: rgb(255, 0, 0);
+}
+
+.address_time .btn button {
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
