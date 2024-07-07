@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 /*  <===========================================>
                  Banner section start ...
     <===========================================> */
@@ -413,25 +417,94 @@
   width: 885px;
   height: 96px;
   margin: 0 auto;
-
 }
 
-.gieft_box{
-width: 1320px;
-height: 662.07px;
-display: flex;
-justify-content: space-between;
-background-image: url('../assets/images/rectangle2.png');
-background-position: bottom;
-background-repeat: no-repeat;
-position: relative;
-top: 6%;
+.gieft_box {
+  width: 1320px;
+  height: 662.07px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../assets/images/rectangle2.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 6%;
 }
 
-.gieft_box .discount{
+.gieft_box .discount {
   width: 305.69px;
-height: 305.69px;
-position: relative;
-top: 12%;
-right: 4%;
+  height: 305.69px;
+  position: relative;
+  top: 12%;
+  right: 4%;
+}
+
+/*  <===========================================>
+            Product section start ...
+    <===========================================> */
+
+.product {
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.product .product_text h3 {
+  height: 29px;
+  width: 192px;
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.product .product_text h1 {
+  width: 566px;
+  height: 60px;
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.product .product_text p {
+  width: 896px;
+  height: 64px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.product .product_container {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.product .product_container .product_box {
+  width: 422px;
+  height: 450px;
+}
+
+.product .product_container .product_box img{
+  display: block;
+  width: 100%;
+  height: 100%;
 }
