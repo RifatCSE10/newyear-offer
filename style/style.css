@@ -259,6 +259,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .best_offer .offer_text {
@@ -364,7 +365,6 @@
 .holiday_sell {
   width: 1320px;
   height: 986.07px;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
@@ -417,10 +417,21 @@
 }
 
 .gieft_box{
-  width: 1320px;
+width: 1320px;
 height: 662.07px;
-border: 1px solid red;
+display: flex;
+justify-content: space-between;
 background-image: url('../assets/images/rectangle2.png');
 background-position: bottom;
 background-repeat: no-repeat;
+position: relative;
+top: 6%;
+}
+
+.gieft_box .discount{
+  width: 305.69px;
+height: 305.69px;
+position: relative;
+top: 12%;
+right: 4%;
 }
