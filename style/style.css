@@ -586,6 +586,9 @@ body {
   width: 75%;
   border: none;
   outline: none;
+  padding-left: 5%;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .subscribe .user_input button {
@@ -617,4 +620,102 @@ body {
   position: relative;
   padding: 10px;
   left: -30%;
+}
+
+/*  <===========================================>
+            Footer section start ...
+    <===========================================> */
+
+.footer {
+  width: 1105px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 240px;
+  background: rgb(7, 2, 17);
+  padding-top: 0.2%;
+}
+
+.footer .first {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 82px;
+}
+
+.footer .first .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .first .right h3 {
+  width: 195px;
+  height: 40px;
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer .first h3 {
+  width: 375px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1.5px dashed rgb(255, 255, 255);
+  color: #fff;
+}
+
+.footer .second {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+
+.footer .second .social_media_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer .second .social_media_link img {
+  margin-top: 33px;
+  margin-bottom: 33px;
+  width: 44px;
+  height: 44px;
+  border: 2px dashed white;
+}
+
+.footer .second hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer .third {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer .third p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 50px;
 }
