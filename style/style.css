@@ -196,7 +196,6 @@
     <===========================================> */
 
 .address_time {
-  
   width: 1320px;
   height: 482px;
   margin: 0 auto;
@@ -246,4 +245,116 @@
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+}
+
+/*  <===========================================>
+            Best offer section start ...
+    <===========================================> */
+
+.best_offer {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.best_offer .offer_text {
+  width: fit-content;
+  padding: 5px;
+}
+
+.best_offer .offer_text h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  height: 29px;
+  width: 207px;
+  margin-bottom: 16px;
+}
+
+.best_offer .offer_text h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  width: 328px;
+  height: 60px;
+  margin-bottom: 22px;
+}
+
+.best_offer .offer_text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  height: 128px;
+  width: 392px;
+}
+
+.best_offer .offer_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 463px;
+  width: 463px;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  position: relative;
+  left: -2%;
+}
+
+.best_offer .offer_img img {
+  text-align: center;
+}
+
+
+
+.offer_time h1 {
+  margin-top: 110px;
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+  padding: 3px;
+}
+
+.offer_time p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 276px;
+  height: 96px;
+  margin-bottom: 43px;
+}
+
+.offer_time .img_box{
+  height: 140px;
+  width: 140px;
+}
+
+.offer_time .img_box img{
+  width: 100%;
 }
